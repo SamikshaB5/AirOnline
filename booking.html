@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AirOnline</title>
+
+    <!-- CSS stylesheet -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav id="top" class="navbar navbar-expand-lg navbar-light">
+      <!-- <div class="container-fluid"> -->
+        <img class="brandLogo" src="images/BrandLogo.png" alt="brand-logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Deals</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Preffered Airline
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Indigo</a></li>
+                <li><a class="dropdown-item" href="#">AirIndia</a></li>
+                <li><a class="dropdown-item" href="#">SpaceJet</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </div>
+    <!--xx navbar xx-->
+
+
+     <div class="booking-bg">
+      <!-- form -->
+    <form class="form-group" action="mailto:radhikabhiste52@gmail.com" method="post" enctype="text/plain">
+      <div id="form">
+
+          <h3 class="text-white">Booking Details</h3>
+          <!-- input -->
+          <div id="input">
+            <input type="text" id="input-group" placeholder="From">
+            <input type="text" id="input-group" placeholder="To">
+            <input type="text" id="input-group" placeholder="Departure Date">
+            <input type="text" id="input-group" placeholder="Departure time">
+            <select id="input-group" style="background: black;">
+              <option value="">Preffered Airline</option>
+              <option value="">IndiGo</option>
+                <option value="">AirIndia</option>
+                  <option value="">SpaceJet</option>
+            </select>
+            <select id="input-group" style="background: black;">
+              <option value="">Preffered Seating</option>
+              <option value="">Economy Class</option>
+                <option value="">Business Class</option>
+                  <option value="">First Class</option>
+            </select>
+          </div>
+          <!-- xx input xx -->
+
+          <!-- input2 -->
+          <div id="input2">
+            <input type="number" id="input-group" placeholder="Adult">
+            <input type="number" id="input-group" placeholder="Children(2-11years)">
+            <input type="number" id="input-group" placeholder="infant(under 2yeras)">
+          </div>
+          <!-- xx input2 xx -->
+
+          <!-- input3 -->
+          <div id="input3">
+          <span class="text-primary">Select Your Fare</span>
+          <input type="radio" id="input-group" name="r">
+          <label class="text-white" for="input-group">One Way</label>
+          <input type="radio" id="input-group" name="r">
+          <label class="text-white" for="input-group">Round Trip</label>
+          </div>
+          <!-- xx input3 xx -->
+
+          <!-- input4 -->
+          <div id="input4">
+            <input type="text" id="input-group" placeholder="Return Date">
+            <input type="text" id="input-group" placeholder="Return Time">
+            <input type="text" id="input-group1" placeholder="Any Message">
+          </div>
+          <!-- xx input4 xx -->
+
+          <!-- input5 -->
+          <div id="input5">
+            <h3 class="text-white">Personal Details</h3>
+          </div>
+          <!-- xx input5 xx -->
+
+          <!-- input6 -->
+          <div id="input6">
+            <input type="text" id="input-group" placeholder="Full Name">
+            <input type="number" id="input-group" placeholder="Mobile Number">
+            <input type="email" id="input-group1" placeholder="Email">
+          </div>
+          <!-- xx input6 xx -->
+            <input type="submit" id="submit" name="">
+          <!-- <button type="submit" name="button" class="btn btn-warning">Submit</button> -->
+          <button type="reset" name="button" class="btn btn-primary">Clear</button>
+        </div>
+
+    </form>
+      <!-- xx form xx -->
+  </div>
+  </body>
+</html>
